@@ -2,7 +2,7 @@
 Image to 3d with VFusion3D and gradio UI
 # How to use
 
-  ##git clone https://github.com/Minhtrna/9.5AI_techday.git
+##git clone https://github.com/Minhtrna/9.5AI_techday.git
 
 then you need install all requirement library 
 
