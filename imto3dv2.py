@@ -92,4 +92,4 @@ with gr.Blocks() as demo:
     capture_btn.click(capture_and_display, inputs=None, outputs=img)
     generate_btn.click(generate_and_display, inputs=img, outputs=output_3d)
 
-demo.launch(allowed_paths=['./'], share=True)
+demo.launch(allowed_paths=['./'])
