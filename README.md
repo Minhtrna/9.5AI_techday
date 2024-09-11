@@ -1,13 +1,16 @@
 # 9.5AI_techday
 Image to 3d with VFusion3D and gradio UI
 # How to use
-install all requirement library 
+
+  ##git clone https://github.com/Minhtrna/9.5AI_techday.git
+
+then you need install all requirement library 
 
 1 : gradio
 
 2 : OpenCV
 
-Run imto3dv2.py  
+Finally run imto3dv2.py  
 
 App will deploy on Local URL which will show in command window 
 
