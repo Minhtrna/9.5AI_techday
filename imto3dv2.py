@@ -55,11 +55,18 @@ def generate_3d_model(img_path):
         return None
 # Function to create a pythreejs scene for the 3D model
 def display_3d_model(obj_file_path):
-    # Simply return the path to the 3D model file
-    return obj_file_path
+    return obj_file_path # why ? don't know, i just copy from the docs :D and it worked
 
 # Gradio interface
 with gr.Blocks() as demo:
+    # Display the logo in the header of the interface next to the maekdown text
+
+    gr.Markdown(
+            """
+            # Image to 3D Model 
+            """)
+    with gr.Row():
+        gr.Image(value="C:/Mlab-Project/test/logo3.png",show_label=False,width=150, height=150, show_download_button=False,show_fullscreen_button= False, container= False) # Display the logo
     with gr.Row():
         with gr.Column():
             img = gr.Image(label="Captured Image", type="filepath")  # Display captured image
@@ -85,4 +92,4 @@ with gr.Blocks() as demo:
     capture_btn.click(capture_and_display, inputs=None, outputs=img)
     generate_btn.click(generate_and_display, inputs=img, outputs=output_3d)
 
-demo.launch()
+demo.launch(allowed_paths=['./'], share=True)
