@@ -1,9 +1,7 @@
-# 9.5AI_techday
 
 # IMPORTANT
 speed is slow when calling api maybe it's cause by the internet speed of the server 
 
-Image to 3d with VFusion3D and gradio UI
 # How to use
 
 git clone https://github.com/Minhtrna/9.5AI_techday.git
