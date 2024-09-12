@@ -58,7 +58,7 @@ def display_3d_model(obj_file_path):
     return obj_file_path # why ? don't know, i just copy from the docs :D and it worked
 
 # Gradio interface
-with gr.Blocks() as demo:
+with gr.Blocks(css="footer{display:none !important}") as demo:
     # Display the logo in the header of the interface next to the maekdown text
 
     gr.Markdown(
@@ -73,7 +73,7 @@ with gr.Blocks() as demo:
             capture_btn = gr.Button("Capture Image")
             generate_btn = gr.Button("Generate 3D Model")
         with gr.Column():
-            output_3d = gr.Model3D(label="3D Model Viewer")
+            output_3d = gr.Model3D(label="3D Model Viewer", height= 400, camera_position=[-270, 180, 3])
             
     def capture_and_display():
         img_path = capture_image()
