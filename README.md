@@ -5,6 +5,10 @@ get huggingface pro may reduce the generate time.
 
 # How to use
 
+remember to create a folder named: Github , then u need to set the clone directory in to that folder.
+
+which should look like that : ./Github/9.5AI_techday
+
 git clone https://github.com/Minhtrna/9.5AI_techday.git
 
 then you need install all requirement library 
