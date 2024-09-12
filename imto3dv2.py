@@ -2,11 +2,6 @@ import gradio as gr
 import cv2
 import os
 from gradio_client import Client, handle_file
-
-# Function to capture image from laptop camera and save it to a file
-import os
-import cv2
-
 def capture_image():
     # Specify the directory where you want to save the image
     save_dir = "C:/Users/quang/Downloads"
@@ -36,9 +31,6 @@ def capture_image():
 
 # Function to send the image via API and get 3D model path
 def generate_3d_model(img_path):
-    if img_path and isinstance(img_path, str):
-        print(f"Sending image file at {img_path} to the API...")
-        try:
             client = Client("facebook/VFusion3D")
             result = client.predict(
                 image=handle_file(img_path),  # Ensure file path is passed here
@@ -47,20 +39,12 @@ def generate_3d_model(img_path):
             normalized_path = result[0].replace("\\", "/")
             print(f"3D model file saved at: {normalized_path}")
             return normalized_path
-        except Exception as e:
-            print(f"Error occurred during API call: {e}")
-            return None
-    else:
-        print(f"Invalid image path: {img_path}")
-        return None
-# Function to create a pythreejs scene for the 3D model
 def display_3d_model(obj_file_path):
     return obj_file_path # why ? don't know, i just copy from the docs :D and it worked
 
 # Gradio interface
-with gr.Blocks(css="footer{display:none !important}") as demo:
+with gr.Blocks(css="footer{display:none !important}", title= 'Imgto3D') as demo:
     # Display the logo in the header of the interface next to the maekdown text
-
     gr.Markdown(
             """
             # Image to 3D Model 
