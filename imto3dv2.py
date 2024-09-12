@@ -50,7 +50,7 @@ with gr.Blocks(css="footer{display:none !important}", title= 'Imgto3D') as demo:
             # Image to 3D Model 
             """)
     with gr.Row():
-        gr.Image(value="./Github/9.5AI_techday/logo3.png",show_label=False,width=150, height=150, show_download_button=False,show_fullscreen_button= False, container= False) # Display the logo
+        gr.Image(value="./9.5AI_techday/logo3.png",show_label=False,width=150, height=150, show_download_button=False,show_fullscreen_button= False, container= False) # Display the logo
     with gr.Row():
         with gr.Column():
             img = gr.Image(label="Captured Image", type="filepath")  # Display captured image
