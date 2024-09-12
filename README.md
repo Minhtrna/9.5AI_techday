@@ -1,6 +1,6 @@
 
 # IMPORTANT
-speed is slow when calling api maybe it's cause by the internet speed of the server or the limit of free sup 
+speed is slow when calling api maybe due to internet speed of the server or the limit of free sup 
 get huggingface pro may reduce the generate time.
 
 # How to use
