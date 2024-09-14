@@ -17,6 +17,8 @@ Following step in
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+if colab runout of compute unit then use kaggle : https://www.kaggle.com/code/minhtranv/image-to-3d-web-app-with-gradio-and-ngrok
+
 the app will be access via the public link 
 
 ![image](https://github.com/user-attachments/assets/8d86d949-9b7e-4bca-8bd6-8f6000d4aa32)
