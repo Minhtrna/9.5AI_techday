@@ -7,25 +7,13 @@ for greatest performance please use imto3dv2.ipynb https://colab.research.google
 
 # How to use
 
-remember to create a folder named: Github , then u need to set the clone directory in to that folder.
+Following step in https://colab.research.google.com/github/Minhtrna/9.5AI_techday/blob/main/imto3dv2.ipynb 
+the app will be access via the public link 
+![image](https://github.com/user-attachments/assets/8d86d949-9b7e-4bca-8bd6-8f6000d4aa32)
 
-which should look like that : ./Github/9.5AI_techday
+app should look like this 
 
-git clone https://github.com/Minhtrna/9.5AI_techday.git
+![image](https://github.com/user-attachments/assets/1cab368e-11ba-471e-9efa-d7a8a0c6b675)
 
-then you need install all requirement library 
 
-1 : gradio
-
-2 : OpenCV
-
-Finally run imto3dv2.py  
-
-App will deploy on Local URL which will show in command window 
-
-Ex : ![image](https://github.com/user-attachments/assets/8758e0ff-89d3-4eda-816b-19dd2567c40b)
-
-Should look like this 
-
-![image](https://github.com/user-attachments/assets/daf260f0-41cc-4bf1-8565-01f9cdd21f2d)
 
