@@ -7,6 +7,9 @@ for greatest performance please use imto3dv2.ipynb <a target="_blank" href="http
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+or https://www.kaggle.com/code/minhtranv/image-to-3d-web-app-with-gradio-and-ngrok
+
+
 # How to use 
 
 ## Best performance
