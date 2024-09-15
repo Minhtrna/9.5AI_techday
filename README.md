@@ -12,6 +12,13 @@ or https://www.kaggle.com/code/minhtranv/image-to-3d-web-app-with-gradio-and-ngr
 
 # How to use 
 
+## ACCESS TOKEN
+
+![image](https://github.com/user-attachments/assets/79826df4-ef30-4559-a11d-0069f8d1bdb5)
+
+requires a token generated from, remember to gain READ in token setting: https://huggingface.co/settings/tokens
+also u need to fill in the access form in this link : https://huggingface.co/stabilityai/stable-fast-3d
+
 ## Best performance
 
 Following step in 
