@@ -26,6 +26,9 @@ the app will be access via the public link
 
 ![image](https://github.com/user-attachments/assets/8d86d949-9b7e-4bca-8bd6-8f6000d4aa32)
 
+While runing on kaggle. Kaggle block direct web deploy on thier server so we need to use ngrok to create a tunnel link to our local host on kaggle server 
+You will access app via tunel link. Remember to read instruction in kaggle 
+
 app should look like this 
 
 ![image](https://github.com/user-attachments/assets/1cab368e-11ba-471e-9efa-d7a8a0c6b675)
@@ -40,7 +43,7 @@ then clone the repo to github folder u created before
 
 final link should look like : ./Github/9.5AI_techday
 
-## library require
+ library require
  1 : gradio 
  2 : Opencv
 
