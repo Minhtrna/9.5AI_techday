@@ -29,12 +29,15 @@ Following step in
 
 if colab runout of compute unit then use kaggle : https://www.kaggle.com/code/minhtranv/image-to-3d-web-app-with-gradio-and-ngrok
 
-the app will be access via the public link 
-
 ![image](https://github.com/user-attachments/assets/8d86d949-9b7e-4bca-8bd6-8f6000d4aa32)
 
 While runing on kaggle. Kaggle block direct web deploy on thier server so we need to use ngrok to create a tunnel link to our local host on kaggle server 
 You will access app via tunel link. Remember to read instruction in kaggle 
+
+On kaggle app will be access via the public link 
+
+![image](https://github.com/user-attachments/assets/f68560ad-45ad-458a-a03d-8baacd268845)
+
 
 app should look like this 
 
