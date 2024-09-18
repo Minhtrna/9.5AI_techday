@@ -3,7 +3,7 @@
 When using imto3dv2.py speed is slow when calling api maybe due to internet speed of the server or the limit of free sup 
 get huggingface pro may reduce the generate time. 
 
-for greatest performance please use imto3dv2.ipynb <a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/github/Minhtrna/9.5AI_techday/blob/main/imto3dv2.ipynb">
+for greatest performance please use imto3dv2.ipynb <a target="_blank" href="https://colab.research.google.com/github/Minhtrna/9.5AI_techday/blob/main/imto3dv2.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
